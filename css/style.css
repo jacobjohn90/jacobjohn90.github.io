@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+}
+#intro {
+    display: flex;
+    
+}
+
+#introImage img {
+    width: 50vw;
+}
+#introContent {
+    width: 50vw;
+    text-align: center;
+}
+.btn {
+    text-decoration: none;
+    color: seagreen;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn:hover{
+    background: rgb(56, 56, 56);
+    color: #eee;
+    border: 1px solid rgb(56, 56, 56);
+}
