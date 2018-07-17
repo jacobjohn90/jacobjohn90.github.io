@@ -10,36 +10,85 @@
 </head>
 
 <body>
-    <div id="intro">
-        <div id="introImage">
-            <img src="./splash-page.jpg" alt="computer">
+    <div id="container">
+        <div id="intro">
+            <div id="introContent">
+                <div id="introText">
+                    <h1>Jacob John's Portfolio</h1>
+                    <h2>Welcome</h2>
+                    <a href="#aboutMe" class="btn" id="viewAboutMe">About Me</a>
+                    <a href="#myWork" class="btn" id="viewMyWork">My Work</a>
+                    <a href="#contact" class="btn" id="viewContact">Contact Info</a>
+                </div>
+            </div>
+            <div id="introImage"></div>
+
         </div>
-        <div id="introContent">
-            <h1>Welcome To My Portfolio</h1>
-            <h2>Jacob John</h2>
-            <a href="#aboutMe" class="btn">About Me</a>
-            <a href="#myWork" class="btn">My Work</a>
-            <a href="#contact" class="btn">Contact Info</a>
-            <h3>More Content to Come..</h3>
+        <div id="aboutMe">
+            <div class="header">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est beatae voluptatibus vero incidunt quod ducimus
+                    minus rem dolore eius dignissimos?</p>
+            </div>
+        </div>
+        <div id="myWork">
+            <div class="header">
+                <h2>My Work</h2>
+            </div>
+            <div class="work">
+                <img src="images/simon-game.png" alt="simon-game">
+                <div class="subheader">
+                    <h3>Simon Game</h3>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, earum.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/brew-check.png" alt="brewCheck">
+                <div class="subheader">
+                    <h3>BrewCheck</h3>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, earum.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/remr.png" alt="rEMR">
+                <div class="subheader">
+                    <h3>rEMR</h3>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, earum.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="aboutMe">
-        <div class="header">
-            <h2>About Me</h2>
-        </div>
-    </div>
-    <div id="myWork">
-        <div class="header">
-            <h2>
-                My Work
-            </h2>
-        </div>
-    </div>
-    <div id="contact">
+    <footer id="contact">
         <div class="header">
             <h2>Contact Information</h2>
         </div>
-    </div>
+        <div class="content">
+            <p>Email:
+                <strong>
+                    <a href="mailto:jacobjohn90@gmail.com">jacobjohn90@gmail.com</a>
+                </strong>
+            </p>
+            <p>GitHub:
+                <strong>
+                    <a href="https://github.com/jacobjohn90?tab=repositories">www.github.com/jacobjohn90</a>
+                </strong>
+            </p>
+            <p>LinkedIn:
+                <strong>
+                    <a href="https://www.linkedin.com/in/jacobjohn90/">www.linkedin.com/in/jacobjohn90</a>
+                </strong>
+            </p>
+
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
