@@ -64,17 +64,20 @@ img {
     margin-top: 0.5rem;
     transition: background 500ms ease;
 }
+
 .btn:hover{
     background: rgb(56, 56, 56);
     color: #eee;
     border: 1px solid rgb(56, 56, 56);
 }
+
 .header {
     padding: 1.5rem;
     text-align: center;
     background-color: #333;
     color: white;
 }
+
 .header h2 {
     border-left: 1px dotted white;
     border-right: 1px dotted white;
@@ -82,6 +85,7 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .work img{
     border-top: 2px solid black;
 }
@@ -91,19 +95,40 @@ img {
     padding: 0.8rem;
     text-align: center;
 }
+
 h3 {
     font-size: 2rem;
     font-weight: 700;
     margin: 0;
     color: #333;
 }
+
 .content {
     padding: 0.8rem;
     text-align: center;
+    min-height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    color: #eee;
 }
+
 a {
     text-decoration: none;
     color: seagreen;
+}
+
+#aboutMeContent {
+    display: flex;
+    align-items: center;
+}
+
+#aboutMeContent img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 1vh 3vw;
 }
 
 @media ( min-width: 500px) {
@@ -120,10 +145,18 @@ a {
     #introImage {
         height: 100vh;
     }
+    #aboutMeContent img {
+        height: 150px;
+        width: 150px;
+    }
 }
 
 @media (min-width: 700px) {
     .btn {
         padding: 0.5rem 3rem;
+    }
+    #aboutMeContent img {
+        height: 200px;
+        width: 200px;
     }
 }
