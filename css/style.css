@@ -70,6 +70,9 @@ img {
     color: #eee;
     border: 1px solid rgb(36, 36, 36);
 }
+.btn:visted {
+    color: rgba(0,82,187);
+}
 
 .header {
     padding: 1.5rem;
@@ -87,15 +90,13 @@ img {
 }
 
 #aboutMeContent {
-    display: flex;
     align-items: center;
 }
 
 #aboutMeContent img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: 1vh 3vw;
+    height: 200px;
+    width: 200px;
+    margin: 1vh auto;
 }
 
 .work {
@@ -142,7 +143,9 @@ a {
     text-decoration: none;
     color: rgba(0,82,187);
 }
-
+a:visted {
+    color: rgba(0,82,187);
+}
 
 .contactContent {
     display: flex;
@@ -182,8 +185,17 @@ a {
     .btn {
         padding: 0.5rem 3rem;
     }
-    #aboutMeContent img {
-        height: 200px;
-        width: 200px;
+
+    #aboutMeContent {
+    display: flex;
+    align-items: center;
     }
+
+    #aboutMeContent img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 1vh 3vw;
+    }
+
 }
