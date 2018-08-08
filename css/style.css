@@ -176,10 +176,6 @@ a:visited {
     #introImage {
         height: 100vh;
     }
-    #aboutMeContent img {
-        height: 150px;
-        width: 150px;
-    }
 }
 
 @media (min-width: 700px) {
